@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+    <!-- <link rel="stylesheet" href="esports.css"> -->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <link rel="stylesheet" href="esports.css"> -->
+    <title>RG Gaming | Free Fire </title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="index.css">
+    <link href="https://fonts.googleapis.com/css2?family=PT+Sans&display=swap" rel="stylesheet">
+    <link rel="stylesheet" media="screen and (max-width: 500px)" href="phone (1).css">
+    <link rel="icon" href="https://lh3.googleusercontent.com/ogw/ADea4I6Nl0AeSuZ2nVbKmrnlTQxDcMR8eqTO1jd3-i5y=s32-c-mo" type="image/jpg">
+    
+    <link rel="stylesheet" media="screen and (max-width: 500px)" href="iphoneX.css">
+</head>
+
+<body>
+    <nav>
+        <input type="checkbox" id="check">
+        <label for="check" class="checkbtn">
+          <i class="fas fa-bars"></i>
+        </label>
+        <label class="logo">RG Gaming</label>
+        <ul>
+          <li><a  href="index.html">HOME</a></li>
+          <li><a href="#"class="active">E-SPORT</a></li>
+          <li><a href="shop.html">SHOP</a></li>
+          <li><a href="about.html">ABOUT US</a></li>
+          <!-- <li><a href="#">Feedback</a></li> -->
+        </ul>
+      </nav>
+    
+
+    <!--image slider start-->
+    <div class="slider">
+        <div class="slides">
+            <!--radio buttons start-->
+            <input type="radio" name="radio-btn" id="radio1">
+            <input type="radio" name="radio-btn" id="radio2">
+            <input type="radio" name="radio-btn" id="radio3">
+            <input type="radio" name="radio-btn" id="radio4">
+            <!--radio buttons end-->
+            <!--slide images start-->
+            <div class="slide first">
+                <img src="https://ajaygour.com/wp-content/uploads/2018/07/Garena-Free-Fire.png" alt="">
+            </div>
+            <div class="slide">
+                <img src="https://venturebeat.com/wp-content/uploads/2020/05/Garena-Free-Fire.jpg?w=1200&strip=all" alt="">
+            </div>
+            <div class="slide">
+                <img src="https://sm.ign.com/t/ign_in/screenshot/default/image006_38su.1280.png" alt="">
+            </div>
+            <div class="slide">
+                <img src="ml.jpg" alt="">
+            </div>
+            <!--slide images end-->
+            <!--automatic navigation start-->
+            <!-- <div class="navigation-auto">
+                <div class="auto-btn1"></div>
+                <div class="auto-btn2"></div>
+                <div class="auto-btn3"></div>
+                <div class="auto-btn4"></div>
+            </div> -->
+            <!--automatic navigation end-->
+        </div>
+        <!--manual navigation start-->
+        <!-- <div class="navigation-manual">
+            <label for="radio1" class="manual-btn"></label>
+            <label for="radio2" class="manual-btn"></label>
+            <label for="radio3" class="manual-btn"></label>
+            <label for="radio4" class="manual-btn"></label>
+        </div> -->
+        <!--manual navigation end-->
+    </div>
+    <!--image slider end-->
+
+    <script type="text/javascript">
+        var counter = 1;
+        setInterval(function () {
+            document.getElementById('radio' + counter).checked = true;
+            counter++;
+            if (counter > 4) {
+                counter = 1;
+            }
+        }, 5000);
+    </script>
+    <h2 id="trne">Master league season 1</h2>
+
+    <div id="tna1">
+        <img src="master league.jpeg" alt="" id="tni1">
+    </div>
+    <div id="info">
+        <span id="infofm">R.G gaming </span>
+        <!-- <span id="infofms" style="display:inline-block;" </span> -->
+        <span id="infoai">Free Fire Master League 2021 Summer: All you need to know Garena has announced its first-ever
+            Master league for the Indian region, the Free Fire Master League 2021 spring. 
+        </span>
+        <a id="join" href="form.html">Join now</a>
+    </div>
+    <div id="tna1">
+        <img src="team magmt.jpeg" alt="" id="tni1">
+    </div>
+    <div id="info">
+        <span id="infofm">R.G gaming</span>
+        <!-- <span id="infofms" style="display:inline-block;" </span> -->
+        <span id="infoai">A team must consist of four (4) players to be eligible to compete in the Tournament.
+            No changes/additions can be made to the roster after the tournament has started.
+            All teams are allowed to add up to two (1) substitutes to the team before the start of the tournament.
+            This substitute slot can not be filled after the tournament has started
+        </span>
+        <span id="fd">2021-04-14</span>
+    </div>
+    <div id="tna1">
+        <img src="room mode.jpeg" alt="" id="tni1">
+    </div>
+    <div id="info">
+        <span id="infofm">R.G gaming </span>
+        <!-- <span id="infofms" style="display:inline-block;" </span> -->
+        <span id="infoai">
+            <ul>
+                <li> Room = custom </li>
+                <li>Game Mode = Clash squad</li>
+                <li>Game team size = Squad</li>
+                <li>Map Pool = Bermuda , kalhari</li>
+            </ul>
+        </span>
+        <span id="fd">2021-04-14</span>
+    </div>
+    <div id="tna1">
+        <img src="game detail.jpeg" alt="" id="tni1">
+    </div>
+    <div id="info">
+        <span id="infofm">R.G gaming </span>
+        <!-- <span id="infofms" style="display:inline-block;" </span> -->
+        <span id="infoai">
+            <ul>
+                <li>H.P = 200</li>
+                <li>Ep = 0</li>
+                <li>Enviroment = Day</li>
+                <li>Movement speed = 100%</li>
+                <li>Limited Ammo = No</li>
+
+            </ul>
+
+        </span>
+        <span id="fd">2021-04-14</span>
+    </div>
+    <div id="tna1">
+        <img src="prize.jpeg" alt="" id="tni1">
+    </div>
+    <div id="info">
+        <span id="infofm">R.G gaming </span>
+        <!-- <span id="infofms" style="display:inline-block;" </span> -->
+        <span id="infoai">
+            <ul>
+                <li>Champion Team : Weekly Membership (all Player of Champion Team)</li>
+                <li>
+                    Runner up team : Dimond top-up
+                </li>
+                <li>
+                    Elimate team : Dimond top-up ( 2 player)
+                </li>
+            </ul>
+        </span>
+
+        <span id="fd">2021-04-14</span>
+    </div>
+    <div id="element">
+
+    <div id="tna1">
+        <img src="rules and regulation.jpeg" alt="" id="tni1">
+    </div>
+    <div id="info">
+        <span id="infofm">R.G gaming </span>
+        <!-- <span id="infofms" style="display:inline-block;" </span> -->
+        <span id="infoai">
+            <ul>
+                <li>Character skills are not allowed </li>
+                <li>Gun skins are not allowed</li>
+                <li>Grenite skins are not allowed</li>
+                <li>Limits Ammo and Gloo walls</li>
+            </ul>
+        </span>
+        <span id="fd">2021-04-14</span>
+    </div>
+</div>
+    <div id="element">
+
+    </div>
+
+    <button id="lm" onclick="hide()">Load more</button>
+    <br>
+    
+    <div id="chari">
+        <div id="title">
+            <h3>Skyler</h3>
+            <img src="https://dl.dir.freefiremobile.com/common/web_event/hash/5d12fdec46e60538f94d26e8f2312c94png"
+                alt="" id="abil">
+            <p>Skyler is an entertainment company CEO &amp; Superstark</p>
+            <p>Unleash a sonic wave forward that damages Gloo Walls. Also, each Gloo Wall deployed will
+                result in HP recovery. Recovery effects do not stack.</p>
+            <p style="padding-bottom: 30px;">shields. Lasts for 10s.</p>
+            <a href="#">View character</a>
+        </div>
+    </div>
+    
+    <script>
+        function hide() {
+            document.getElementById("element").style.display = "block";
+        }
+    </script>
+    <br>
+    <br>
+    <br>
+    <br>
+
+    <div class="g-footer clearFix">
+
+        <div class="m-foot-wrap">
+    
+            <div class="m-language">
+    
+                <span class="earth"></span>
+    
+                <span class="txt">English</span>
+    
+                
+            </div>
+    
+            <div class="m-foot-copyright">
+    
+                <div class="m-foot-logo"><img src="https://lh3.googleusercontent.com/ogw/ADea4I6Nl0AeSuZ2nVbKmrnlTQxDcMR8eqTO1jd3-i5y=s32-c-mo"></div>
+    
+                <div class="txt">Copyright © RG Gaming.<br><div class="txt" style="display: inline-block;">Trademarks belong to their respective owners. All rights Reserved.</div></div>
+    
+            </div>
+            
+        </div>
+    </div>
+    <div class="g-footer" style="height: 10px;">
+        <a href="https://app.appsflyer.com/id1300146617?pid=OrganicA&amp;c=mainpage_IOS" id="apple"><img src="https://freefiremobile-a.akamaihd.net/ffwebsite/images/download/appstore2.png" id="ap"></a>
+        
+        <a href="https://app.appsflyer.com/com.dts.freefireth?pid=OrganicA&amp;c=mainpage_AND" id="apple">
+            <img src="https://freefiremobile-a.akamaihd.net/ffwebsite/images/download/googlePlay2.png" id="ap">
+        </a>
+    </div>
+</body>
+
+</html>

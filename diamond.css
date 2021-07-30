@@ -1,0 +1,337 @@
+div{
+    margin: 0;
+    
+}
+body{
+    color: white;
+}#main_nav{
+    background: rgba(0,0,0,0.8) 10px 4px no-repeat;
+    width: 100%;
+    height: 50px;
+    color: white;
+    font-size: xx-large;
+    padding-left: 392px;
+    padding-top: 1px;
+    font-family:cursive, Verdana, Geneva, Tahoma, sans-serif;
+} 
+
+                      /* free  fire menu */
+
+.mainmenu img{
+    width: 290px;
+    height: 278px;
+    margin-left: 90px;
+    border: 0.1px solid rgb(168, 167, 167);
+    display: inline;
+    background-color: rgb(236, 230, 230);
+    margin-top: 60px;
+}
+p{
+    margin: 0;
+}
+#rating{
+    line-height: normal;
+    display:inline;
+    color: #fff;
+    padding: 2px 4px 2px 6px;
+    border-radius: 3px;
+    font-weight: 500;
+    font-size: 12px;
+    background-color: #388e3c;
+    width: 36px;
+    margin-left: 12px;
+    margin-top: 12px;
+}
+#rating img{
+        margin: 2px 0 0 2px;
+        margin-top: 2px;
+        margin-right: 0px;
+        margin-bottom: 0px;
+        margin-left: 2px;
+        height: 10px;
+        
+}
+#content p{
+    font-size: x-large;
+    font-family: 'Otomanopee One', sans-serif;
+    font-weight: 600;
+    padding-left: 28px;
+    display: inline;
+    color: white;
+}
+#rs{
+    color: #04b10d;
+    top: -.5em;
+    font-size: 26px;
+    padding-left: 24px;
+    margin-top: 8px;
+}
+#amount{
+    color: #04b10d;
+    /* top: -.5em; */
+    font-size: 21px;
+    font-weight: 600px;
+    margin-top: 8px;
+}
+#ss{
+    color: white!important;
+    font-size: 14px;
+    line-height: 20px!important;
+    margin-left: 11px;
+    display: inline-block;
+    margin-top: 8px;
+}
+#content div{
+    margin-top: 8px;
+    padding-left: 28px;
+    text-decoration: none;
+}
+#content{
+    /* background-color: white; */
+    width: auto;
+    margin-left: 62px;
+    /* border: 3px solid rgb(252, 240, 240); */
+}
+#w{
+ margin-left: 387px;
+}
+#wo{
+    margin-left: 356px;
+}
+#wp{
+    margin-left: 320px;
+}
+#menu{
+    background-image:url(https://wallpaperaccess.com/full/1841209.jpg);
+    margin-top: 40px;
+    background-repeat: repeat;
+    height: auto;
+}
+#imm{
+    margin-left: 234px;
+}
+a{
+    text-decoration: none;
+    display: inline;
+
+}
+#ratingw{
+    display: inline-block;
+    line-height: normal;
+    color: #fff;
+    padding: 2px 4px 2px 6px;
+    border-radius: 3px;
+    font-weight: 500;
+    font-size: 12px;
+    background-color: #388e3c;
+    width: 36px;
+    margin-left: 12px;
+    margin-top: 12px;
+}
+#ratingw img{
+    margin: 2px 0 0 2px;
+    margin-top: 2px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    margin-left: 2px;
+    height: 10px;
+    
+}
+a span{
+    background-color: rgb(255, 0, 0);
+    font-size: medium;
+    padding: 7px;
+    border-radius: 8px;
+    border: 1px solid black;
+    margin-top: 12px;
+    margin-left: -2px;
+    text-decoration: none;
+    color: white;
+    /* font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ; */
+}
+#buyyw{
+    text-decoration: none;
+    margin-left: 481px;
+}
+#menu2{
+    background-image:url(https://wallpaperaccess.com/full/1841209.jpg);
+    margin-top: 0px;
+    background-repeat: repeat;
+    height: auto;
+}
+#cgg{
+    margin-left: 386px;
+}
+#trne0{
+    text-align: center;
+    font-size: 36px;
+    font-weight: bold;
+    color: #fff;
+    padding-top: 20px;
+    text-transform: uppercase;
+    word-break: break-word;
+    /* padding-top: 20px; */
+    font-family: 'Archivo Narrow', sans-serif;
+} #cgg2{
+    margin-left: 374px;
+}
+#lala{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 70px;
+}
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+  }
+  body{
+    font-family: montserrat;
+  }
+  nav{
+    background: #0f0f0f;
+    position: fixed;
+    height: 80px;
+    width: 100%;
+  }
+  label.logo{
+    color: white;
+    font-size: 35px;
+    line-height: 80px;
+    padding: 0 100px;
+    font-weight: bold;
+  }
+  nav ul{
+    float: right;
+    margin-right: 20px;
+  }
+  nav ul li{
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 5px;
+  }
+  nav ul li a{
+    color: white;
+    font-size: 17px;
+    padding: 7px 13px;
+    border-radius: 3px;
+    text-transform: uppercase;
+  }
+  a.active,a:hover{
+    background: #1b9bff;
+    transition: .5s;
+  }
+  .checkbtn{
+    font-size: 30px;
+    color: white;
+    float: right;
+    line-height: 80px;
+    margin-right: 40px;
+    cursor: pointer;
+    display: none;
+  }
+  #check{
+    display: none;
+  }
+  @media (max-width: 952px){
+    label.logo{
+      font-size: 30px;
+      padding-left: 50px;
+    }
+    nav ul li a{
+      font-size: 16px;
+    }
+  }
+  @media (max-width: 858px){
+    .checkbtn{
+      display: block;
+    }
+    nav ul{
+      position: fixed;
+      width: 100%;
+      height: 100vh;
+      background: #2c3e50;
+      top: 80px;
+      left: -100%;
+      text-align: center;
+      transition: all .5s;
+    }
+    nav ul li{
+      display: block;
+      margin: 50px 0;
+      line-height: 30px;
+    }
+    nav ul li a{
+      font-size: 20px;
+    }
+    a:hover,a.active{
+      background: none;
+      color: #0082e6;
+    }
+    #check:checked ~ ul{
+      left: 0;
+    }
+  }
+  .g-footer {
+    height: auto;
+    padding: 20px 0 130px;
+    background: #111;
+    z-index: 9;
+  }
+  
+  .m-foot-wrap {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+  .m-language {
+    line-height: 20px;
+    padding: 25px 0 14px;
+    width: 160px;
+    text-align: right;
+    float: right;
+    margin: 0 auto;
+    position: relative;
+  
+  }
+  .m-language .earth {
+      display: inline-block;
+      vertical-align: top;
+      height: 20px;
+      width: 20px;
+      background: url(https://freefiremobile-a.akamaihd.net/ffwebsite/images/earth.png) 0 -20px no-repeat;
+  }
+  .m-language .txt {
+      display: inline;
+      vertical-align: top;
+      height: 20px;
+      font-size: 14px;
+      color: #888;
+      padding: 0 2px;
+      max-width: 80px;
+  }.m-foot-copyright .txt {
+    padding-top: 2px;
+    padding-left: 10px;
+    display: inline-block;
+    vertical-align: top;
+    line-height: 24px;
+    font-size: 12px;
+    color: #666666;
+    text-align: left;
+  }
+  .m-foot-copyright .m-foot-logo {
+    display: inline-block;
+    vertical-align: top;
+    height: 51px;
+    width: 51px;
+  }
+  #apple {
+    margin-top: 90px;
+    margin-left: 190px;
+  }
+  #ap {
+    width: 190px;
+  }

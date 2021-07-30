@@ -1,0 +1,71 @@
+#info {
+    background-color: white;
+    margin-left: 32px;
+    padding-top: 21px;
+    padding-left: 18px;
+    width: 270px;
+    height: fit-content;
+    display: block;
+    margin-right: 0px;
+}
+#infoai {
+    display: block;
+    line-height: 18px;
+    font-size: 15px;
+    color: #000000;
+    word-break: break-word;
+    padding-top: 13px;
+    margin-bottom: 53px;
+}
+#tni1 {
+    width: 300px;
+    height: 330px;
+    object-fit: cover;
+    padding-left: 32px;
+    padding-top: 56.18px;
+    margin-right: 0px;
+}
+#lm {
+    color: rgb(0, 0, 0);
+    border: 2px solid black;
+    font-family: 'Archivo Narrow', sans-serif;
+    padding: 20px 100px;
+    margin-left: 52px;
+    margin-top: 50px;
+    background-color: rgb(246, 242, 242);
+    cursor: pointer;
+}
+.g-footer {
+    height: auto;
+    padding: 0px 0 151px;
+    background: #111;
+    position: relative;
+    z-index: 9;
+}#apple {
+    margin-top: 79px;
+    margin-left: 34px;
+}#ap {
+    width: 143px;
+}.manual-btn:not(:last-child) {
+    margin-right: 40px;
+    display: none;
+}.navigation-manual {
+    position: absolute;
+    width: 800px;
+    margin-top: -40px;
+    display: none;
+    justify-content: center;
+}.navigation-auto div:not(:last-child) {
+    margin-right: 40px;
+    display: none; 
+}
+#btn {
+    padding: 20px 20px;
+    margin-left: 33px;
+    width: 296px;
+    margin-top: 50px;
+    font-size: x-large;
+    border-radius: 20px;
+    cursor: pointer;
+    margin-bottom: 50px;
+}

@@ -1,0 +1,46 @@
+
+#Name {
+    height: 18px;
+    width: 272px;
+    border-radius: 15px;
+    font-size: larger;
+    padding: 20px;
+    margin-left: 35px;
+}
+#submit {
+    height: 60px;
+    width: 281px;
+    border-radius: 15px;
+    font-size: x-large;
+    background-color: blue;
+    border: 2px solid pink;
+    margin-left: 33px;
+}
+.g-footer {
+    height: auto;
+    padding: 0px 0 151px;
+    background: #111;
+    position: relative;
+    z-index: 9;
+}
+#apple {
+    margin-top: 79px;
+    margin-left: 34px;
+}#ap {
+    width: 143px;
+}
+.manual-btn:not(:last-child) {
+    margin-right: 40px;
+    display: none;
+}
+.navigation-manual {
+    position: absolute;
+    width: 800px;
+    margin-top: -40px;
+    display: none;
+    justify-content: center;
+}
+.navigation-auto div:not(:last-child) {
+    margin-right: 40px;
+    display: none;
+}
