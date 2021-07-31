@@ -101,11 +101,12 @@ p{
 #wp{
     margin-left: 320px;
 }
-#menu{
-    background-image:url(https://wallpaperaccess.com/full/1841209.jpg);
+#menu {
+    background-image: url(https://wallpaperaccess.com/full/1841209.jpg);
     margin-top: 40px;
     background-repeat: repeat;
     height: auto;
+    width: 375px;
 }
 #imm{
     margin-left: 234px;
@@ -158,6 +159,7 @@ a span{
     margin-top: 0px;
     background-repeat: repeat;
     height: auto;
+    width:375px;
 }
 #cgg{
     margin-left: 386px;
