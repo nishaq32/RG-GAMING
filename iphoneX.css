@@ -82,6 +82,7 @@
     background: #111;
     position: relative;
     z-index: 9;
+    width: 375px;
 }#apple {
     margin-top: 79px;
     margin-left: 34px;
