@@ -3,11 +3,11 @@
     height: 70vh;
 } 
 #main_content {
-    width: 148px;
-    height: 200px;
+    width: 90px;
+    height: 184px;
     object-fit: cover;
     border-radius: 10px;
-    margin-left: 24px;
+    margin-left: 32px;
     margin-top: 60px;
 }#main_nav{
     background: rgba(0,0,0,0.8) 10px 4px no-repeat;
@@ -28,9 +28,9 @@ div a {
     border-radius: 13px;
     color: #000;
 }#a4 {
-    margin-left: 81px;
+    margin-left: 43px;
 }#a2 {
-    margin-left: 65px;
+    margin-left: 27px;
 }#a1 {
     margin-left: 26px;
 }
