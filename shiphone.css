@@ -3,12 +3,12 @@
     height: 70vh;
 } 
 #main_content {
-    width: 90px;
-    height: 184px;
+    width: 240px;
+    height: 211px;
     object-fit: cover;
     border-radius: 10px;
-    margin-left: 32px;
-    margin-top: 60px;
+    margin-left: 69px;
+    margin-top: 40px;
 }#main_nav{
     background: rgba(0,0,0,0.8) 10px 4px no-repeat;
     width: 100%;
