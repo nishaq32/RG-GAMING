@@ -106,6 +106,7 @@ p{
     margin-top: 40px;
     background-repeat: repeat;
     height: auto;
+    width:375px;
 }
 #imm{
     margin-left: 234px;
@@ -158,6 +159,7 @@ a span{
     margin-top: 0px;
     background-repeat: repeat;
     height: auto;
+    width:375px;
 }
 #cgg{
     margin-left: 511px;
